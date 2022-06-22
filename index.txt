@@ -29,5 +29,15 @@
 ##### Delete the most recent commit and remove changes: #######
 1) git reset --hard HEAD~1 
 
+###### If Your branch is ahead of 'origin/XXX' by 5 commits. ######
+You can issue:
+1) git reset --hard HEAD~5
+2) And it should remove the last 5 commits.
+
 #####  Git log  #########
 1)  git log
+
+##### Remove untracked files (uncommitted local changes)############
+
+1) git clean -df
+
