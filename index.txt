@@ -20,3 +20,14 @@
 2) git checkout <branchname>       (switched to other branch)
 3) git branch -D <branchname>	    (delete branch)
 
+##### Git remove local commits ###########
+1) git reset --hard <commit hash, branch, or tag>
+
+##### Delete the most recent commit, without destroying the work you've done: ########
+1) git reset --soft HEAD~1
+
+##### Delete the most recent commit and remove changes: #######
+1) git reset --hard HEAD~1 
+
+#####  Git log  #########
+1)  git log
