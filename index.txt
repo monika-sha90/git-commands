@@ -1,13 +1,22 @@
-…or create a new repository on the command line
-echo "# git-commands" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/monika-sha90/git-commands.git
-git push -u origin main
+###### create a new repository on the command line ##########
 
-…or push an existing repository from the command line
-git remote add origin https://github.com/monika-sha90/git-commands.git
-git branch -M main
-git push -u origin main
+1) git init
+2) git add README.md
+3) git commit -m "first commit"
+4) git branch -M main
+5) git remote add origin https://github.com/monika-sha90/git-commands.git
+6) git remote -V
+7) git push -u origin main
+
+###### or push an existing repository from the command line ###########
+
+1) git remote add origin https://github.com/monika-sha90/git-commands.git
+2) git branch -M main
+3) git push -u origin main
+
+##### Git Create , checkout , delete branch ##########
+
+1) git checkout -B <branchname>    (create branch)
+2) git checkout <branchname>       (switched to other branch)
+3) git branch -D <branchname>	    (delete branch)
+
